@@ -1,0 +1,658 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x729E2D72 Module: (pawncmd.DLL)
+
+Registers:
+EAX: 0x00000000	EBX: 0x055E1C5C	ECX: 0x00000000	EDX: 0x00000000
+ESI: 0x00000000	EDI: 0x000000F8	EBP: 0x0045ABDA	ESP: 0x0019FC48
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x00000000   0x00000000   0x00000004   0x77C96AE9
++0010: 0x0019FC6C   0x759C261B   0x007F0000   0x00000000
++0020: 0x05B057E0   0x28B941D6   0x02180B90   0x0019FCC0
++0030: 0x0049EF89   0x0000007F   0x02180B90   0x00000000
++0040: 0x004AA3AE   0x75C99E70   0x02180B90   0x3BC54011
++0050: 0x0019FDD4   0x0019FCE4   0x02180B90   0x75C8A320
++0060: 0x00000000   0x0048B338   0x0019FE00   0x004AA81B
++0070: 0xFFFFFFFF   0x7296BE98   0xFFAE413E   0x02189B68
++0080: 0x02189B68   0x00000000   0x0019FD00   0x02180BF8
++0090: 0x75C99E70   0x02189B68   0x3BC54011   0x007F0000
++00A0: 0x6F6E6E00   0x65636E75   0x0019FD00   0x759C25E8
++00B0: 0x00000000   0x0000000F   0x02180BF8   0x6F6E6E61
++00C0: 0x65636E75   0x00000000   0x00000000   0x00000000
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x05AD5D98   0x77C8D8E0
++0120: 0x00000000   0x00000000   0x00000000   0x77C983E9
++0130: 0x75C85FA0   0x00000000   0x00000000   0x03000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x73B00000 - 0x73B69000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+MSVCR100.dll	A: 0x73820000 - 0x738DF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+CRP.DLL	A: 0x74180000 - 0x74186000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x73130000 - 0x731D3000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x730E0000 - 0x7312E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x73800000 - 0x7381A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72A20000 - 0x72AED000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+MSVCP140.dll	A: 0x73070000 - 0x730DC000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x737E0000 - 0x737F4000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x729E0000 - 0x72A15000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x72960000 - 0x729D9000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72920000 - 0x72957000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x728E0000 - 0x7291F000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x727A0000 - 0x72807000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728C0000 - 0x728D7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0048661A Module: (samp-server.exe)
+
+Registers:
+EAX: 0x00000000	EBX: 0x055FBC4C	ECX: 0x00000000	EDX: 0x00000000
+ESI: 0x00000000	EDI: 0x000000F8	EBP: 0x0045ABDA	ESP: 0x0019FB9C
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x02943048   0x02A67320   0x3BC4EEB2   0x0088A6CB
++0010: 0x00000000   0x00000110   0x00000800   0x00000000
++0020: 0x0019FBC1   0x0000CB01   0x53828F04   0x0B0DCEBF
++0030: 0x1906503F   0x00000020   0x00850000   0x00000018
++0040: 0x00000044   0x02003F00   0x0019FBF8   0x0019FBF8
++0050: 0x73B8D65A   0x000207D0   0x00000020   0x00000000
++0060: 0x05666460   0x059DC0A0   0x0019FC84   0x00020000
++0070: 0x00020000   0x059DC008   0x00000016   0x059DC060
++0080: 0x000003FB   0x000209A4   0x00000000   0x059DFF70
++0090: 0x0019FDD4   0x00000004   0x727F3610   0x05AC8408
++00A0: 0x05BA5A48   0x00000522   0x00000000   0x05AC8418
++00B0: 0x00000064   0x053E01FC   0x00000020   0x00000000
++00C0: 0x00000000   0x00000004   0x00000002   0x00000000
++00D0: 0x0019FC80   0x759C261B   0x00850000   0x00000000
++00E0: 0x05BAD648   0x0019FC90   0x759C25E8   0x05BAD648
++00F0: 0x00000000   0x0019FC9C   0x727C536F   0x0019FDD4
++0100: 0x0019FDD4   0x00000001   0x05BAD648   0x05666450
++0110: 0x059DC008   0x0019FE00   0x004AA81B   0xFFFFFFFF
++0120: 0x7296BE98   0xB9AB5D94   0x02309B68   0x02309B68
++0130: 0x00000000   0x0019FCE0   0x727D0CC6   0x0086F80C
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCR100.dll	A: 0x73820000 - 0x738DF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+MSVCP100.dll	A: 0x73B00000 - 0x73B69000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+CRP.DLL	A: 0x74180000 - 0x74186000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x73130000 - 0x731D3000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x730E0000 - 0x7312E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x73800000 - 0x7381A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72A20000 - 0x72AED000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+MSVCP140.dll	A: 0x73070000 - 0x730DC000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x737E0000 - 0x737F4000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x729E0000 - 0x72A15000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x72960000 - 0x729D9000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72920000 - 0x72957000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x728E0000 - 0x7291F000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x727A0000 - 0x72807000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728C0000 - 0x728D7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049B541 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x00000000	EBX: 0x0560FC4C	ECX: 0x00000000	EDX: 0x00000000
+ESI: 0x00000000	EDI: 0x000000F8	EBP: 0x0049B531	ESP: 0x0019FE98
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x004AB530   0x0019FF70   0x004AB171   0xFFFFFFFF
++0010: 0x0049CD36   0x00000001   0x00931308   0x00931350
++0020: 0x00000094   0x00000006   0x00000002   0x000023F0
++0030: 0x00000002   0x00000000   0x00000000   0x00000000
++0040: 0x00000000   0x00000000   0x00000000   0x00000000
++0050: 0x00000000   0x00000000   0x00000000   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x00000000
++0070: 0x00000000   0x00000000   0x00000000   0x00000000
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x00000000   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x0049CBE2   0x0049CBCA   0x0049CBCA   0x003B8000
++00C0: 0x00000000   0x00000000   0xC0000005   0x00000000
++00D0: 0x0019FEB8   0x0019EC14   0x0019FFCC   0x0049D298
++00E0: 0x004BA530   0x00000000   0x0019FF94   0x75C862C4
++00F0: 0x003B8000   0x75C862A0   0x0AC43CF6   0x0019FFDC
++0100: 0x77CA0969   0x003B8000   0xD3A817D5   0x00000000
++0110: 0x00000000   0x003B8000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0xD3A817D5   0x0019FFA0
++0130: 0x00000000   0x0019FFE4   0x77CB7060   0xA46268B1
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x73B00000 - 0x73B69000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+MSVCR100.dll	A: 0x73820000 - 0x738DF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+CRP.DLL	A: 0x74180000 - 0x74186000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x73130000 - 0x731D3000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x730E0000 - 0x7312E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x73800000 - 0x7381A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72A20000 - 0x72AED000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+MSVCP140.dll	A: 0x73070000 - 0x730DC000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x737E0000 - 0x737F4000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x729E0000 - 0x72A15000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x72960000 - 0x729D9000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72920000 - 0x72957000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x728E0000 - 0x7291F000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x727A0000 - 0x72807000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728C0000 - 0x728D7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049B541 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x00000000	EBX: 0x056AAC08	ECX: 0x00000000	EDX: 0x00000000
+ESI: 0x00000000	EDI: 0x000000F8	EBP: 0x0049B531	ESP: 0x0019FE98
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x004AB530   0x0019FF70   0x004AB171   0xFFFFFFFF
++0010: 0x0049CD36   0x00000001   0x02281308   0x02281350
++0020: 0x00000094   0x00000006   0x00000002   0x000023F0
++0030: 0x00000002   0x00000000   0x00000000   0x00000000
++0040: 0x00000000   0x00000000   0x00000000   0x00000000
++0050: 0x00000000   0x00000000   0x00000000   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x00000000
++0070: 0x00000000   0x00000000   0x00000000   0x00000000
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x00000000   0x00000000   0x00000000   0x00000000
++00A0: 0x00000000   0x00000000   0x00000000   0x00000000
++00B0: 0x0049CBE2   0x0049CBCA   0x0049CBCA   0x003A1000
++00C0: 0x00000000   0x00000000   0xC0000005   0x00000000
++00D0: 0x0019FEB8   0x0019EC14   0x0019FFCC   0x0049D298
++00E0: 0x004BA530   0x00000000   0x0019FF94   0x75C862C4
++00F0: 0x003A1000   0x75C862A0   0x83C4669E   0x0019FFDC
++0100: 0x77CA0969   0x003A1000   0x997CC8BB   0x00000000
++0110: 0x00000000   0x003A1000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x997CC8BB   0x0019FFA0
++0130: 0x00000000   0x0019FFE4   0x77CB7060   0xEEB6B7DF
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x73B00000 - 0x73B69000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+MSVCR100.dll	A: 0x73820000 - 0x738DF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+CRP.DLL	A: 0x74180000 - 0x74186000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x73130000 - 0x731D3000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x730E0000 - 0x7312E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x73800000 - 0x7381A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72A20000 - 0x72AED000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+MSVCP140.dll	A: 0x73070000 - 0x730DC000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x737E0000 - 0x737F4000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x729E0000 - 0x72A15000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x72960000 - 0x729D9000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72920000 - 0x72957000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x728E0000 - 0x7291F000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x727A0000 - 0x72807000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728C0000 - 0x728D7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC9C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x756D614B	EBX: 0x05407373	ECX: 0x7FFFFFFE	EDX: 0x0019EF4D
+ESI: 0x0019EBA0	EDI: 0x0019F378	EBP: 0x0019EBEC	ESP: 0x0019EB60
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F338   0x0019EF38   0x054073B8   0x00000228
++0010: 0x00000001   0x00000008   0x4149445B   0x00000007
++0020: 0x00000000   0x75505F6E   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x4E4F5053
++0040: 0x00000016   0x00000000   0x756D614B   0xFFFFFFFF
++0050: 0x00000000   0x55504E49   0x58455454   0x31203A54
++0060: 0x00303030   0xFFFFFFFF   0xFFFFFFFF   0x00000000
++0070: 0x0071BD00   0x0071BD00   0x00000003   0x0045A4AE
++0080: 0x004B9D28   0x0019EDF0   0x00000001   0x00000008
++0090: 0x00000003   0x17B7D58C   0x0000E7D2   0x00000000
++00A0: 0x00000000   0xFFFFFFFF   0xFFFFFFFF   0x00000000
++00B0: 0x721DBDB2   0x004B9D28   0x0019EDF0   0x00000001
++00C0: 0x00000008   0x00000003   0x17B7D58C   0x721DE7D2
++00D0: 0x00000000   0x00000000   0xFCDA3150   0x00000008
++00E0: 0x02419B60   0x721DBDF1   0x004B9D28   0x0019EDF0
++00F0: 0x02419B60   0x721DBDF1   0x00000000   0x0000005D
++0100: 0x00000008   0x00000228   0x00000800   0x00000000
++0110: 0x0019EE01   0x00000100   0x00000800   0x00000000
++0120: 0x0019EE11   0xFFFFFF00   0x0019ECC8   0x77C802B5
++0130: 0x00000068   0x00000070   0x024102CC   0x0019ECBC
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x730D0000 - 0x73139000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+MSVCR100.dll	A: 0x72A30000 - 0x72AEF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+CRP.DLL	A: 0x73B00000 - 0x73B06000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x72980000 - 0x72A23000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x73080000 - 0x730CE000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x737F0000 - 0x7380A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72250000 - 0x7231D000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSVCP140.dll	A: 0x72910000 - 0x7297C000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+VCRUNTIME140.dll	A: 0x728F0000 - 0x72904000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x727D0000 - 0x72805000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x721D0000 - 0x72249000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72790000 - 0x727C7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x72190000 - 0x721CF000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6ECE0000 - 0x6ED47000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728D0000 - 0x728E7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x721DBDB2 Module: (pawnraknet.DLL)
+
+Registers:
+EAX: 0x756D614B	EBX: 0x051E5373	ECX: 0x7FFFFFFE	EDX: 0x0019EF4D
+ESI: 0x0019EBA0	EDI: 0x0019F378	EBP: 0x00000000	ESP: 0x0019EC0C
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x004B9D2C   0x0019EDF0   0x00000001   0x0019EAF0
++0010: 0x00000001   0x00C36076   0x0019EE50   0x004AA5DB
++0020: 0xFFFFFFFF   0x0019EE5C   0x0045A393   0x004B52B8
++0030: 0x0019EEE9   0x00000090   0x00000001   0x00000009
++0040: 0x00000002   0x5CC36076   0x02A38F4E   0x00000090
++0050: 0x00000000   0xFFFFFFFF   0xFFFFFFFF   0x00000000
++0060: 0x00451968   0x004B52B8   0x0019EEE9   0x00000090
++0070: 0x00000001   0x00000009   0x00000002   0x5CC36076
++0080: 0x02A38F4E   0x00000000   0x00000000   0xFFFFFFFF
++0090: 0xFFFFFFFF   0x00000000   0x0069E820   0x0069E820
++00A0: 0x6ECE3C2D   0x0019F0E4   0x004B52B8   0x6ED334E8
++00B0: 0x00000001   0x6ECE3C2D   0x0019F0F8   0x5CC36076
++00C0: 0x6ED334C8   0x00000000   0x4349505B   0x5D50554B
++00D0: 0x686F4A20   0x75505F6E   0x5B617274   0x203A5D30
++00E0: 0x202F2032   0x00000032   0x00000009   0x00000002
++00F0: 0x5CC36076   0x721D8F4E   0x00000000   0x00000000
++0100: 0xAA221123   0x00000028   0x022E0000   0x0000001C
++0110: 0x022E0000   0x00000017   0x00000000   0x0019EDB8
++0120: 0x00000001   0x005707D0   0x00000028   0x00000000
++0130: 0x029F11D0   0x02A65580   0x022E7A70   0x00570000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCR100.dll	A: 0x73080000 - 0x7313F000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+MSVCP100.dll	A: 0x72A80000 - 0x72AE9000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+CRP.DLL	A: 0x73B00000 - 0x73B06000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x729D0000 - 0x72A73000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x72980000 - 0x729CE000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x737F0000 - 0x7380A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72250000 - 0x7231D000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSVCP140.dll	A: 0x72910000 - 0x7297C000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+VCRUNTIME140.dll	A: 0x728F0000 - 0x72904000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x727D0000 - 0x72805000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x721D0000 - 0x72249000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72790000 - 0x727C7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x72190000 - 0x721CF000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6ECE0000 - 0x6ED47000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728D0000 - 0x728E7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC9C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x756D614B	EBX: 0x051F2273	ECX: 0x7FFFFFFE	EDX: 0x0019EF4D
+ESI: 0x0019EBA0	EDI: 0x0019F378	EBP: 0x0019EBEC	ESP: 0x0019EB60
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F338   0x0019EF38   0x051F22C8   0x004B9D28
++0010: 0x0019EDD1   0x000001E0   0x4149445B   0x00000007
++0020: 0x00000000   0x75505F6E   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x4E4F5053
++0040: 0x00000016   0x00000000   0x756D614B   0xFFFFFFFF
++0050: 0x00000000   0x504E4920   0x45545455   0x203A5458
++0060: 0x00000000   0x5CC36076   0x00459842   0x00000000
++0070: 0x00000000   0xFFFFFFFF   0xFFFFFFFF   0x00000000
++0080: 0x721DBDB2   0x004B9D28   0x0019EDC0   0x00000001
++0090: 0x00000008   0x00000003   0x5CC36076   0x721D9842
++00A0: 0x00000000   0x00000000   0x257993AA   0x00000008
++00B0: 0x02279550   0x721DBDF1   0x004B9D28   0x0019EDC0
++00C0: 0x721DBDB2   0x004B9D28   0x00000002   0x0000005D
++00D0: 0x00000008   0x000001E0   0x00000800   0x00000000
++00E0: 0x0019EDD1   0x00000000   0x2579936A   0x00000008
++00F0: 0x02279550   0x721DBDF1   0x004B9D28   0x0019EE00
++0100: 0x00000000   0x00000000   0x00000002   0x0000005D
++0110: 0x02279550   0x00000208   0x00000800   0x00000000
++0120: 0x0019EE11   0x0019F000   0x00000002   0x0000005D
++0130: 0x00000001   0x00000118   0x00000800   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Administrator\Desktop\INFERNO\samp-server.exe)
+ntdll.dll	A: 0x77C40000 - 0x77DC2000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75C70000 - 0x75D50000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x750B0000 - 0x75252000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x764E0000 - 0x778B5000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77AF0000 - 0x77BAE000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x77BB0000 - 0x77BE6000	(C:\Windows\System32\cfgmgr32.dll)
+windows.storage.dll	A: 0x75F40000 - 0x764AF000	(C:\Windows\System32\windows.storage.dll)
+combase.dll	A: 0x75470000 - 0x75680000	(C:\Windows\System32\combase.dll)
+ucrtbase.dll	A: 0x75990000 - 0x75A70000	(C:\Windows\System32\ucrtbase.dll)
+RPCRT4.dll	A: 0x778C0000 - 0x77981000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x74720000 - 0x7473F000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74710000 - 0x7471A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x75EE0000 - 0x75F3A000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x75420000 - 0x75461000	(C:\Windows\System32\sechost.dll)
+powrprof.dll	A: 0x75A90000 - 0x75AD5000	(C:\Windows\System32\powrprof.dll)
+advapi32.dll	A: 0x748A0000 - 0x74917000	(C:\Windows\System32\advapi32.dll)
+shlwapi.dll	A: 0x77BF0000 - 0x77C36000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75C40000 - 0x75C6B000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74740000 - 0x7489B000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75AE0000 - 0x75C40000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74D90000 - 0x74DA5000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x75D50000 - 0x75D5D000	(C:\Windows\System32\kernel.appcore.dll)
+shcore.dll	A: 0x75260000 - 0x752E8000	(C:\Windows\System32\shcore.dll)
+profapi.dll	A: 0x75410000 - 0x7541F000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x74170000 - 0x74178000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x77A30000 - 0x77A93000	(C:\Windows\System32\WS2_32.dll)
+WINMM.dll	A: 0x73D40000 - 0x73D64000	(C:\Windows\SYSTEM32\WINMM.dll)
+WINMMBASE.dll	A: 0x73D10000 - 0x73D33000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x753E0000 - 0x75405000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x730D0000 - 0x73139000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP100.dll)
+MSVCR100.dll	A: 0x72A30000 - 0x72AEF000	(C:\Users\Administrator\Desktop\INFERNO\MSVCR100.dll)
+CRP.DLL	A: 0x73B00000 - 0x73B06000	(C:\Users\Administrator\Desktop\INFERNO\plugins\CRP.DLL)
+MSVCR90.dll	A: 0x72980000 - 0x72A23000	(C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35\MSVCR90.dll)
+mysql.DLL	A: 0x73080000 - 0x730CE000	(C:\Users\Administrator\Desktop\INFERNO\plugins\mysql.DLL)
+log-core.dll	A: 0x737F0000 - 0x7380A000	(C:\Users\Administrator\Desktop\INFERNO\log-core.dll)
+libmariadb.dll	A: 0x72250000 - 0x7231D000	(C:\Users\Administrator\Desktop\INFERNO\libmariadb.dll)
+CRYPT32.dll	A: 0x75D60000 - 0x75EDE000	(C:\Windows\System32\CRYPT32.dll)
+MSASN1.dll	A: 0x75810000 - 0x7581E000	(C:\Windows\System32\MSASN1.dll)
+MSVCP140.dll	A: 0x72910000 - 0x7297C000	(C:\Users\Administrator\Desktop\INFERNO\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x728F0000 - 0x72904000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+Secur32.dll	A: 0x73AE0000 - 0x73AEA000	(C:\Windows\SYSTEM32\Secur32.dll)
+napinsp.dll	A: 0x73350000 - 0x73362000	(C:\Windows\system32\napinsp.dll)
+mswsock.dll	A: 0x73300000 - 0x7334E000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73280000 - 0x732FD000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x764B0000 - 0x764B7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x73410000 - 0x7343F000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x73270000 - 0x7327C000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x73250000 - 0x73264000	(C:\Windows\system32\NLAapi.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x727D0000 - 0x72805000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawncmd.DLL)
+pawnraknet.DLL	A: 0x721D0000 - 0x72249000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnraknet.DLL)
+pawnregex.DLL	A: 0x72790000 - 0x727C7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\pawnregex.DLL)
+profiler.DLL	A: 0x72190000 - 0x721CF000	(C:\Users\Administrator\Desktop\INFERNO\plugins\profiler.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\Administrator\Desktop\INFERNO\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6ECE0000 - 0x6ED47000	(C:\Users\Administrator\Desktop\INFERNO\plugins\streamer.DLL)
+TOTP.DLL	A: 0x728D0000 - 0x728E7000	(C:\Users\Administrator\Desktop\INFERNO\plugins\TOTP.DLL)
+bcrypt.dll	A: 0x73AB0000 - 0x73ACB000	(C:\Windows\SYSTEM32\bcrypt.dll)
